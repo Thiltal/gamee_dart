@@ -5,6 +5,7 @@
 ///
 /// This is an awesome library. More dartdocs go here.
 library gamee;
+import "dart:html";
 
 // TODO: Export any libraries intended for clients of this package.
 
