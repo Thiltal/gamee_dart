@@ -1,6 +1,6 @@
 # gamee
 
-A library for Dart developers. It is awesome.
+A Dart wrapper around http://gameeapp.com project.
 
 ## Usage
 
@@ -9,11 +9,9 @@ A simple usage example:
     import 'package:gamee/gamee.dart';
 
     main() {
-      var awesome = new Awesome();
+      Gamee gamee = new Gamee(context[r"$gameeNative"]);
     }
 
 ## Features and bugs
 
-Please file feature requests and bugs at the [issue tracker][tracker].
-
-[tracker]: http://example.com/issues/replaceme
+This version is a prototype. Basic functional version will come soon.
