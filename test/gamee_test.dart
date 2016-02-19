@@ -7,15 +7,18 @@ import 'package:gamee/gamee.dart';
 import 'package:test/test.dart';
 
 void main() {
-  group('A group of tests', () {
-    Awesome awesome;
+  group('Wrapper test', () {
+    Gamee gamee;
 
     setUp(() {
-      awesome = new Awesome();
+      gamee = new Gamee();
     });
 
     test('First Test', () {
-      expect(awesome.isAwesome, isTrue);
+      gamee.paused = true;
+      expect(gamee.paused, isTrue);
+      // Not possible ... browser tests will be necessary
+      // TODO: implement browser tests
     });
   });
 }
