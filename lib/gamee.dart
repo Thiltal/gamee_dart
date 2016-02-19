@@ -6,9 +6,11 @@
 /// This is an awesome library. More dartdocs go here.
 library gamee;
 import "dart:html";
+import "dart:js";
 
 // TODO: Export any libraries intended for clients of this package.
 
-export 'src/gamee_base.dart';
+//export 'src/gamee_base.dart';
 
 part "src/utils.dart";
+part "src/gamee_native.dart";
